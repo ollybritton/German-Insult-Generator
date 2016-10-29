@@ -1,0 +1,55 @@
+.align
+  width: 100%
+  height: 70vh
+  display: flex
+  flex-direction: row
+  justify-content: center
+
+  .prefix
+    flex: 0.75
+
+  .suffix
+    flex: 1
+
+  .prefix, .suffix
+    display: flex
+    flex-direction: column
+    justify-content: center
+
+    .directive
+      margin: 0 auto
+      width: 80%
+      padding: 10px
+      text-align: center
+      background: $oc-gray-3
+
+    .insult
+      display: flex
+      flex-direction: row
+      justify-content: center
+      height: 40px
+
+      .adjective, .noun
+        flex: 1
+        max-width: 40%
+        height: auto
+        background: $oc-gray-3
+        padding: 10px
+        margin-left: 20px
+        margin-right: 20px
+        text-align: center
+
+.button
+  height: 30vh
+  width: 100%
+  display: flex
+  flex-direction: column
+  justify-content: center
+
+  .button-cta
+    padding: 10px
+    background: $oc-pink-8
+    margin: 0 auto
+    color: white
+    min-width: 100px
+    text-align: center

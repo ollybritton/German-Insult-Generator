@@ -1,0 +1,65 @@
+@import url(utilities/animate.css);
+*, *:before, *:after {
+  font-family: "Roboto", sans-serif; }
+
+body {
+  padding: 0;
+  margin: 0; }
+
+.align {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.align {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  .align .prefix {
+    flex: 0.75; }
+  .align .suffix {
+    flex: 1; }
+  .align .prefix, .align .suffix {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .align .prefix .directive, .align .suffix .directive {
+      margin: 0 auto;
+      width: 80%;
+      padding: 10px;
+      text-align: center;
+      background: #dee2e6; }
+    .align .prefix .insult, .align .suffix .insult {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      height: 40px; }
+      .align .prefix .insult .adjective, .align .prefix .insult .noun, .align .suffix .insult .adjective, .align .suffix .insult .noun {
+        flex: 1;
+        max-width: 40%;
+        height: auto;
+        background: #dee2e6;
+        padding: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center; }
+
+.button {
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .button .button-cta {
+    padding: 10px;
+    background: #c2255c;
+    margin: 0 auto;
+    color: white;
+    min-width: 100px;
+    text-align: center; }
+
+/*# sourceMappingURL=main.css.map */
