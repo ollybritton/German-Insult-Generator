@@ -37,11 +37,11 @@ body {
       display: flex;
       flex-direction: row;
       justify-content: center;
-      height: 40px; }
+      height: 70px; }
       .align .prefix .insult .adjective, .align .prefix .insult .noun, .align .suffix .insult .adjective, .align .suffix .insult .noun {
         flex: 1;
         max-width: 40%;
-        height: auto;
+        height: 50px;
         background: #dee2e6;
         padding: 10px;
         margin-left: 20px;

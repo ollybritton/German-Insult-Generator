@@ -1,14 +1,14 @@
 function change() {
   var currentNoun = randomAreNoun()
   var currentAdjective = randomAreAdj()
-  directive.fadeOut(function() {
-    directive.html('Du Bist ' + currentNoun[1]).fadeIn()
+  directiveText.fadeOut(function() {
+    directiveText.html('Du bist ' + currentNoun[1]).fadeIn()
   });
-  adjective.fadeOut(function() {
-    adjective.html(currentAdjective).fadeIn()
+  adjectiveText.fadeOut(function() {
+    adjectiveText.html(currentAdjective).fadeIn()
   });
-  noun.fadeOut(function() {
-    noun.html(currentNoun[0]).fadeIn()
+  nounText.fadeOut(function() {
+    nounText.html(currentNoun[0]+".").fadeIn()
   });
 }
 

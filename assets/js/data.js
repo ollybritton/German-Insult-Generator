@@ -1,6 +1,9 @@
 var directive = $('.directive'),
     adjective = $('.adjective'),
-    noun = $('.noun')
+    noun = $('.noun'),
+    directiveText = $('.directive-text'),
+    adjectiveText = $('.adjective-text'),
+    nounText = $('.noun-text')
 
 var genders = [
   "ein",
@@ -9,40 +12,54 @@ var genders = [
 ]
 
 var directives = [
-  "Du Bist ",
-  "Du Hast "
+  "Du bist ",
+  "Du hast "
 ]
 
 var areAdjectives = [
-  "Doof",
-  "Dick",
-  "Schlechtgelaunt",
-  "Jähzornig",
-  "Gemein",
-  "Faul",
-  "Eitel",
-  "Gerissen",
-  "Ungeduldig",
-  "Traurig",
-  "Veraltet",
-  "Böse",
-  "Schrecklich",
-  "Hässlich",
-  "Blass",
-  "Gräuel"
+  "doof",
+  "dick",
+  "schlechtgelaunt",
+  "jähzornig",
+  "gemein",
+  "faul",
+  "eitel",
+  "gerissen",
+  "ungeduldig",
+  "traurig",
+  "veraltet",
+  "böse",
+  "schrecklich",
+  "hässlich",
+  "blass",
+  "gräuel"
 ]
 
 var areNouns = [
-  ["Schwein", "Ein"], // das
-  ["Mutter", "Eine"], // die
-  ["Walfisch", "Eine"], // die
-  ["Fisch", "Einen"], // der
-  ["Hund", "Einen"], // der
-  ["Pinguin", "Einen"], // der
-  ["Bär", "Einen"], // der
-  ["Affe", "Einen"], // der
-  ["Gorilla", "Einen"], // der
-  ["Hautausschlag", "Einen"] // der
+  ["Schwein", "ein"], // das
+  ["Mutter", "eine"], // die
+  ["Walfisch", "eine"], // die
+  ["Fisch", "einen"], // der
+  ["Hund", "einen"], // der
+  ["Pinguin", "einen"], // der
+  ["Bär", "einen"], // der
+  ["Affe", "einen"], // der
+  ["Gorilla", "einen"], // der
+  ["Hautausschlag", "einen"], // der
+  ["Elefant", "einen"],
+  ["Hamster", "einen"],
+  ["Vogel","einen"],
+  ["Goldfisch", "einen"],
+  ["Katze", "eine"],
+  ["Spinne", "eine"],
+  ["Schlange", "eine"],
+  ["Maus", "eine"],
+  ["Schildkröte", "eine"],
+  ["Kuh", "eine"],
+  ["Meerschweinchen", "ein"],
+  ["Kaninehen", "ein"],
+  ["Pfelt", "ein"],
+  ["Huhn", "ein"]
 ]
 
 function randomNumber(min, max) {
